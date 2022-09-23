@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #6a5be2;
+  header {
+    background-color: #fff;
+  }
+  .tests:hover {
+    transform: scale(110%);
+  }
+}
+
+.tests {
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(110%);
+  }
+}
+
+.bar {
+  &_progress {
+    background-color: #6a5be2;
+    transition: width 0.3s ease-in-out;
+  }
+}
+
+.btn {
+  &_back {
+    background-color: #8275e7;
+  }
+}
