@@ -25,10 +25,10 @@ function App() {
     },
   ];
   return (
-    <div className="App w-screen h-screen ">
+    <div className="App w-full h-full ">
       <Header />
-      <main className=" w-screen h-screen flex flex-col items-center   ">
-        <div className="bg-white  w-10/12 mt-10 p-8 rounded-xl mx-auto flex flex-col items-center">
+      <main className=" w-full h-full flex flex-col items-center   ">
+        <div className="bg-white  w-9/12 mt-10 p-8 rounded-xl mx-auto flex flex-col items-center">
           <p>Выбор теста</p>
           <ul className="flex w-8/12 flex-col ">
             {tests.map((obj) => {

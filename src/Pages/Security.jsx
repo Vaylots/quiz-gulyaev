@@ -84,7 +84,7 @@ export const Security = () => {
   return (
     <div className="game">
       <Header />
-      <main className=" w-screen h-screen flex flex-col items-center   ">
+      <main className=" w-full h-full flex flex-col items-center   ">
         {question < questions.length ? (
           <div className="bg-white  w-10/12 mt-10 p-8 rounded-xl mx-auto flex flex-col items-center">
             <div className="bar h-4 border-2 rounded-xl mb-2 border-black flex items-center  w-full ">
