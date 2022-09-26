@@ -48,7 +48,7 @@ export const OOP = () => {
       correct: 2,
     },
     {
-      title: `Выберите все цикл с условием.`,
+      title: `Выберите цикл с условием.`,
       variants: ["For Next", "Do while", "Do until", "If Then"],
       correct: 1,
     },
